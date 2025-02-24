@@ -16,58 +16,58 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/jprm/test-project git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-auburn-cichlid.sh
-        container: qc.acc_crappy-maroon-sparrow
+        - /usr/bin/env sh .sqa/script.lousy-cinnabar-mastiff.sh
+        container: qc.acc_cheeky-scarlet-capuchin
   QC.Doc:
     repos:
       gitlab.a.incd.pt/jprm/test-project find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-bronze-booby.sh
-        container: qc.doc_foggy-magenta-slug
+        - /usr/bin/env sh .sqa/script.beady-malachite-bee.sh
+        container: qc.doc_snazzy-maroon-worm
       gitlab.a.incd.pt/jprm/test-project git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-taupe-toucan.sh
-        container: qc.doc_stealthy-emerald-crocodile
+        - /usr/bin/env sh .sqa/script.zippy-cerulean-terrier.sh
+        container: qc.doc_silly-cinnamon-cow
       gitlab.a.incd.pt/jprm/test-project markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-gamboge-turkey.sh
-        container: qc.doc_stinky-gamboge-mayfly
+        - /usr/bin/env sh .sqa/script.dorky-white-tarantula.sh
+        container: qc.doc_skanky-charcoal-reindeer
   QC.Lic:
     repos:
       gitlab.a.incd.pt/jprm/test-project licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-firebrick-slug.sh
-        container: qc.lic_squirrely-cinnabar-cow
+        - /usr/bin/env sh .sqa/script.greasy-cream-fousek.sh
+        container: qc.lic_trippy-apricot-yak
   QC.Sec:
     repos:
       gitlab.a.incd.pt/jprm/test-project bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-amaranth-discus.sh
-        container: qc.sec_droopy-mauve-centipede
+        - /usr/bin/env sh .sqa/script.dorky-ruby-lion.sh
+        container: qc.sec_paltry-black-shrimp
   QC.Sty:
     repos:
       gitlab.a.incd.pt/jprm/test-project flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-seashell-russel.sh
-        container: qc.sty_baggy-cerise-oyster
+        - /usr/bin/env sh .sqa/script.pasty-aqua-fly.sh
+        container: qc.sty_slimy-magnolia-echidna
       gitlab.a.incd.pt/jprm/test-project hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-khaki-fowl.sh
-        container: qc.sty_skanky-periwinkle-maltese
+        - /usr/bin/env sh .sqa/script.lovely-salmon-balinese.sh
+        container: qc.sty_baggy-persimmon-chinook
       gitlab.a.incd.pt/jprm/test-project jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-xanthic-eagle.sh
-        container: qc.sty_cozy-sepia-hummingbird
+        - /usr/bin/env sh .sqa/script.scanty-myrtle-anteater.sh
+        container: qc.sty_thirsty-indigo-lemur
   QC.Uni:
     repos:
       gitlab.a.incd.pt/jprm/test-project pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-amber-flounder.sh
-        container: qc.uni_freaky-yellow-raccoon
+        - /usr/bin/env sh .sqa/script.scanty-aqua-lemur.sh
+        container: qc.uni_homely-violet-alligator
   QC.Ver:
     repos:
       gitlab.a.incd.pt/jprm/test-project get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-ecru-dane.sh
-        container: qc.ver_surly-periwinkle-dollar
+        - /usr/bin/env sh .sqa/script.messy-burgundy-serval.sh
+        container: qc.ver_gloppy-zucchini-kingfisher
 timeout: 5400
